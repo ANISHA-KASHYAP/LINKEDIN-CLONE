@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Clone</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+
+    <nav>
+
+        <div class="logo">
+            Linked<span>in</span>
+        </div>
+
+        <div class="search-box">
+            <input
+                type="text"
+                placeholder="Search">
+        </div>
+
+        <div class="nav-links">
+
+            <a href="#">Home</a>
+
+            <a href="#">Network</a>
+
+            <a href="#">Jobs</a>
+
+            <a href="#">Messaging</a>
+
+            <a href="#">Notifications</a>
+
+            <button>Me</button>
+
+            <button id="darkModeBtn">
+                🌙 Dark Mode
+            </button>
+
+        </div>
+
+    </nav>
+
+    <!-- Hero Section -->
+
+    <section class="hero">
+
+        <div class="left">
+
+            <h1>
+                Welcome to your professional community
+            </h1>
+
+            <div class="login-box">
+
+                <input
+                    type="email"
+                    placeholder="Email">
+
+                <input
+                    type="password"
+                    placeholder="Password">
+
+                <button class="sign-btn">
+                    Sign In
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="right">
+
+            <img
+            src="https://placehold.co/600x400"
+            alt="hero image">
+
+        </div>
+
+    </section>
+
+    <!-- Main Container -->
+
+    <div class="container">
+
+        <!-- Left Sidebar -->
+
+        <div class="left-sidebar">
+
+            <div class="profile-page">
+
+                <img
+                src="https://placehold.co/100"
+                alt="profile">
+
+                <h3>SHIVI</h3>
+
+                <p>
+                    Aspiring Web Developer 🚀
+                </p>
+
+                <p>
+                    Connections: 500+
+                </p>
+
+                <p>
+                    Learning HTML • CSS • JS
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- Feed -->
+
+        <div class="feed">
+
+            <div class="create-post">
+
+                <input
+                    id="postInput"
+                    type="text"
+                    placeholder="Start a post">
+
+                <button id="postBtn">
+                    Post
+                </button>
+
+            </div>
+
+            <!-- Dynamic Posts -->
+
+            <div id="posts"></div>
+
+            <!-- Sample Post -->
+
+            <div class="post">
+
+                <h4>John Doe</h4>
+
+                <p>
+                    Learning HTML & CSS 🚀
+                </p>
+
+                <button class="like-btn">
+                    👍 0 Likes
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- Right Sidebar -->
+
+        <div class="right-sidebar">
+
+            <h3>
+                Trending News
+            </h3>
+
+            <p>
+                🤖 AI is transforming education
+            </p>
+
+            <p>
+                💻 Web Development is booming
+            </p>
+
+            <p>
+                🚀 JavaScript remains popular
+            </p>
+
+            <p>
+                📈 Tech hiring is increasing
+            </p>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
